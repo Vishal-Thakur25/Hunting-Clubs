@@ -1,0 +1,100 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #4e8cff, #275bff);
+  color: white;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.grid button {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  color: black;
+  cursor: pointer;
+}
+
+.mine {
+  background-color: #ff4c4c; /* red */
+  color: white;
+}
+
+.safe {
+  background-color: #4caf50; /* green */
+  color: white;
+}
+
+.betSection {
+  margin-bottom: 1rem;
+}
+
+.betSection input {
+  width: 10rem;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.betSection button {
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.betSection .betDisplay {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.buttons button {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.autoGameSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.autoGameToggle {
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .grid button {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
+}
